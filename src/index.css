@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+.gotu {
+    font-family: "Gotu", sans-serif;
+    font-style: normal;
+}
