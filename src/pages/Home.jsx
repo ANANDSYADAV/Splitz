@@ -15,8 +15,7 @@ function Home() {
                     <img src="image1.png" alt="coins" className="h-[500px] w-[450px]" />
                 </div>
             </div>
-
-            <Footer />
+            
         </div>
     )
 }

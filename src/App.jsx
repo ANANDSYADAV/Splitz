@@ -1,25 +1,20 @@
 import { useState } from 'react'
 import Home from './pages/Home';
 import Navbar from './components/Navbar';
+import Creator from './pages/Creator';
+import AboutSplitz from './pages/AboutSplitz';
+import Footer from './components/Footer';
 
 function App() {
-  const [count, setCount] = useState(null);
-
-  const updateCount = (e) => {
-    setCount(e.target.value);
-  }
-
-  function showIndividual() {
-    if (count >= 0) {
-      console.log('button clicked');
-    }
-  }
 
   return (
     <>
       <div>
         <Navbar />
-        <Home />
+        {/* <Home /> */}
+        {/* <Creator /> */}
+        <AboutSplitz />
+        <Footer />
       </div>
     </>
   )

@@ -15,9 +15,9 @@ function Footer() {
                     <div className="flex text-2xl items-center gap-2 hover:text-red-500"><IoBarChart className="text-blue-400" /> About Splitz</div>
                     <div className="flex text-2xl items-center gap-2 hover:text-red-500"><MdOutlineManageAccounts className="text-blue-400" /> About Creator</div>
                 </div>
-                <div className="flex text-2xl items-center gap-2 text-yellow-500"><FaScaleBalanced className="text-orange-600"/> MIT License</div>
+                <div className="flex text-2xl items-center gap-2 text-yellow-500"><FaScaleBalanced className="text-orange-600" /> MIT License</div>
             </div>
-            <div className="h-[10%] text-center">© All right reserved to the creator</div>
+            <div className="h-[10%] text-center">Copyright © 2024 ANAND YADAV</div>
         </div>
     )
 }
