@@ -2,6 +2,7 @@ import { IoBarChart } from "react-icons/io5";
 import { MdOutlineManageAccounts } from "react-icons/md";
 import { FaScaleBalanced } from "react-icons/fa6";
 import '../index.css'
+import { Link } from 'react-router-dom'
 
 function Footer() {
     return (
@@ -12,8 +13,8 @@ function Footer() {
                     <div className='text-5xl font-medium font-serif'>Splitz</div>
                 </div>
                 <div className="text-green-400 cursor-pointer flex gap-14">
-                    <div className="flex text-2xl items-center gap-2 hover:text-red-500"><IoBarChart className="text-blue-400" /> About Splitz</div>
-                    <div className="flex text-2xl items-center gap-2 hover:text-red-500"><MdOutlineManageAccounts className="text-blue-400" /> About Creator</div>
+                    <Link to='/aboutsplitz' className="flex text-2xl items-center gap-2 hover:text-red-500"><IoBarChart className="text-blue-400" /> About Splitz</Link>
+                    <Link to='/creator' className="flex text-2xl items-center gap-2 hover:text-red-500"><MdOutlineManageAccounts className="text-blue-400" /> About Creator</Link>
                 </div>
                 <div className="flex text-2xl items-center gap-2 text-yellow-500"><FaScaleBalanced className="text-orange-600" /> MIT License</div>
             </div>

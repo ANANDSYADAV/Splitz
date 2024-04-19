@@ -29,19 +29,19 @@ function Creator() {
                             A dedicated web developer and tech enthusiast with an insatiable curiosity for all things digital. As a student of the digital age, I'm on a mission to blend my passion for technology with the art of crafting seamless digital experiences. Join me on this exhilarating journey as we shape the future of the digital landscape together!
                         </div>
                         <div className="flex gap-12 text-4xl text-black justify-center md:justify-start">
-                            <a href="https://www.linkedin.com/in/anand-yadav-08b7b2230/">
+                            <a target="_blank" href="https://www.linkedin.com/in/anand-yadav-08b7b2230/">
                                 <FaLinkedin className="bg-pink-100 cursor-pointer opacity-[0.6] hover:opacity-[1]" />
                             </a>
-                            <a href="https://github.com/ANANDSYADAV">
+                            <a target="_blank" href="https://github.com/ANANDSYADAV">
                                 <FaGithub className="bg-pink-100 cursor-pointer opacity-[0.6] hover:opacity-[1]" />
                             </a>
-                            <a href="https://rapidapi.com/user/anandyad2004">
+                            <a target="_blank" href="https://rapidapi.com/user/anandyad2004">
                                 <SiRapid className="bg-pink-100 cursor-pointer opacity-[0.6] hover:opacity-[1]" />
                             </a>
-                            <a href="https://www.npmjs.com/~anandsyadav">
+                            <a target="_blank" href="https://www.npmjs.com/~anandsyadav">
                                 <SiNpm className="bg-pink-100 cursor-pointer opacity-[0.6] hover:opacity-[1]" />
                             </a>
-                            <a href="https://www.instagram.com/anandsyadav257/?hl=en">
+                            <a target="_blank" href="https://www.instagram.com/anandsyadav257/?hl=en">
                                 <FaSquareInstagram className="bg-pink-100 cursor-pointer opacity-[0.6] hover:opacity-[1]" />
                             </a>
                         </div>
